@@ -5,15 +5,15 @@
 
 >The program сalculates the value of the function f(x,n), for ***n = 10, 11 ... 15*** and ***x***, changing from ***0.6 to 1.1*** with a step ***0.1***
 
+#### Language: Delphi
+
 ### Algorithm scheme: 
 
 ![Algorithm scheme Part1](https://i.imgur.com/o251Fc9.png)
 
 ![Algorithm scheme Part2](https://i.imgur.com/hTVXsu8.png)
 
-##### Language: Delphi
-
-##### Code:
+### Code:
 ``` pascal
 Program lab1;
 {Calculate the value of the function f(x,n), for n = 10, 11 ... 15 and x, changing from 0.6 
@@ -107,6 +107,5 @@ Begin
 
   Readln;
 End.
-
 ```
 
