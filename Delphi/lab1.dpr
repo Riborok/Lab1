@@ -1,7 +1,6 @@
 Program lab1;
-{Calculate function value f(x,n), for n = 10, 11 ... 15 and x, changing from 0.6 to 1.1
+{Calculate the value of the function f(x,n), for n = 10, 11 ... 15 and x, changing from 0.6 to 1.1
 with a step 0.1}
-
 
 {$APPTYPE CONSOLE}
 
@@ -31,8 +30,8 @@ Var
 
 Begin
 
-  x:= xStart;
   //x - start value for x
+  x:= xStart;
 
   //Iterate over the value of x, changing from 0.6 to 1.1 with a step 0.1
   while x<= xLast do
@@ -57,7 +56,15 @@ Begin
       if ValueForSum3>0 then
         ValueForSum3:= exp(1/3*ln(ValueForSum3))
       else if ValueForSum3<0 then
-        ValueForSum3:=(-1) * exp(1/3*ln((-1)*ValueForSum3));
+        ValueForSum3:=(-1) * exp(1/3*ln((-1)*ValueForSum3))
+
+      //For lab I can't use break :(
+      //But left in the code :)
+      else
+      begin
+        writeln('At x= ',x:3:1,' and n= ',k,' the value of the function is not defined');
+        break;
+      end;
 
       Sum:= Sum + ValueForSum1 * ValueForSum2 / ValueForSum3;
 
