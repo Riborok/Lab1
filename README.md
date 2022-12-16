@@ -1,7 +1,7 @@
 # Lab №1. Function counting 
 ---
 ### Task:
-![The task](https://i.imgur.com/AF04T6T.png)
+![The task](https://i.imgur.com/l1b6cAw.png)
 
 >The program сalculates the value of the function f(x,n), for ***n = 10, 11 ... 15*** and ***x***, changing from ***0.6 to 1.1*** with a step ***0.1***
 
